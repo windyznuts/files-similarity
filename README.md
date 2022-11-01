@@ -7,10 +7,16 @@ and stores these frequencies into vectors to finally apply the cosine function a
 
 these steps are sequenced into functions to better model the code 
 
+**How to run :
+-navigate to file folder using cd commande 
+-in commande line , type :
+g++ -o similarity similarity.cpp 
+to compile and generate the exe file
+-to execute the code type : 
+similarity <filename1.txt> <filename2.txt>
 
-how to run :
+file names are read from the commande line so making sure they are written correctly is important . 
 
-in commande line , type :
-+gcc -o similarity similarity.cpp <filename1.txt> <filename2.txt> 
+**requirements :
+compiler 
 
-file names are read from the commande line so making sure they are written correctly is important .
